@@ -1,0 +1,17 @@
+#body {
+    background-color: rgb(14, 11, 11);
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between
+}
+
+.wrapper {
+    color: aliceblue;
+}
+
+.wrapper:hover {
+    cursor: pointer;
+}

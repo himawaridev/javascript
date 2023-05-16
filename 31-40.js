@@ -44,24 +44,6 @@ function calculateDiv4(n) {
     }
 }
 
-console.log(calculateS(5));
+console.log('cau 34: ',calculateDiv4(5));
 
 // bai 35 Tính S(n) = CanBac2(n! + CanBac2((n-1)! +CanBac2((n – 2)! + … + CanBac2(2!) + CanBac2(1!)))) có n dấu căn
-
-function calculateDiv5(n) {
-    if (n === 1 || n === 0) {
-        return 1;
-    } else {
-        return n * calculateDiv5(n - 1);
-    }
-}
-
-function calculateS(n) {
-    if (n === 1) {
-        return 1;
-    } else {
-        return Math.sqrt(calculateDiv5(n) + calculateS(n - 1));
-    }
-}
-
-console.log(calculateS(5));
