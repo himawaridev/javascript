@@ -161,7 +161,7 @@ function question10(a, b) {
     }
     return a;
 }
-function question11(a, b) {
+function question11(a, b) { // khởi tạo hàm mới 
     let sum = question10(a, b);
     return (a * b) / sum;
 }

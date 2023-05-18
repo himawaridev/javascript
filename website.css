@@ -1,11 +1,11 @@
 #body {
-    background-color: rgb(14, 11, 11);
+    background-color: rgb(247, 233, 46);
     margin: 0px;
 }
 
 .container {
     display: flex;
-    justify-content: space-evenly
+    justify-content: center;
 }
 
 .wrapper {
