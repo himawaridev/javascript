@@ -46,7 +46,7 @@ function calculateDiv4(n) {
 
 console.log('cau 34: ', calculateDiv4(5));
 
-// bai 35 Tính S(n) = CanBac2(n! + CanBac2((n-1)! +CanBac2((n – 2)! + … + CanBac2(2!) + CanBac2(1!)))) có n dấu căn
+// bai 35 Tính S(n) = CanBac2(n! + CanBac2((n-1)! + CanBac2((n – 2)! + … + CanBac2(2!) + CanBac2(1!)))) có n dấu căn
 
 function calculateDiv5(n) {
     let result = 1; // Gán giá trị khởi tạo cho biến kết quả
@@ -64,3 +64,5 @@ function calculateFactorial(num) {
     return factorial;
 }
 console.log("cau 35: ", calculateDiv5(5));
+
+// no idea
