@@ -65,4 +65,4 @@ function calculateFactorial(num) {
 }
 console.log("cau 35: ", calculateDiv5(5));
 
-// no idea
+// no idea :))
