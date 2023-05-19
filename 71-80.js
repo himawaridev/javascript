@@ -17,30 +17,17 @@ question1(2, 3);
 
 // bai 72: Kiểm tra số nguyên 4 byte có dạng 2^k hay không
 
-function question2(number) {
-    return (number & (number - 1)) === 0;
-    if (question2(number)) {
-        console.log(number + ' có dạng 2^k.');
-    } else {
-        console.log(number + ' không có dạng 2^k.');
-    }
-}
-question2(16);
-
-
-
+console.log('cau 72: error');
 
 // bia 73: Kiểm tra số nguyên 4 byte có dạng 3^k hay không
-function question3() {
-    function isPowerOfThree(num) {
-        const logarithm = Math.log(num) / Math.log(3);
-        return Number.isInteger(logarithm);
-    }
-    const number = 81; 
-    if (isPowerOfThree(number)) {
-        console.log(number + ' có dạng 3^k.');
-    } else {
-        console.log(number + ' không có dạng 3^k.');
-    }
-}
 
+console.log('cau 73: error');
+
+/*
+Trong JavaScript, kiểu dữ liệu số nguyên 4 byte không được định rõ, 
+vì JavaScript sử dụng mô hình số học 64 bit để lưu trữ tất cả các số nguyên. 
+Điều này cho phép JavaScript xử lý các số nguyên rất lớn, vượt quá giới hạn của số nguyên 4 byte.
+Tuy nhiên, trong các ngôn ngữ lập trình khác như C, C++, Java, C#, 
+số nguyên 4 byte được biểu diễn bằng các kiểu dữ liệu như int hoặc long, 
+và giá trị của nó nằm trong khoảng từ -2,147,483,648 đến 2,147,483,647.
+*/

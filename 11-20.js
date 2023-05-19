@@ -1,4 +1,4 @@
-// bai 11
+// bai 11: Tính S(n) = 1 + 1.2 + 1.2.3 + … + 1.2.3….N
 function calculateDiv(number) {
     let value = 1;
     let sum = 0;
@@ -11,7 +11,9 @@ function calculateDiv(number) {
 }
 calculateDiv(5);
 
-// bai 12
+
+
+// bai 12: Tính S(n) = x + x^2 + x^3 + … + x^n
 function calculateDiv1(number) {
     let x = 1;
     let sum = 0;
@@ -23,7 +25,9 @@ function calculateDiv1(number) {
 calculateDiv1(5);
 
 
-// bai 13
+
+
+// bai 13: Tính S(n) = x^2 + x^4 + … + x^2n
 function calculateDiv2(number) {
     let x = 1;
     let sum = 0;
@@ -35,7 +39,8 @@ function calculateDiv2(number) {
 calculateDiv2(5);
 
 
-// bai 14
+
+// bai 14: Tính S(n) = x + x^3 + x^5 + … + x^2n + 1
 function calculateDiv3(number) {
     let x = 1;
     let sum = 0;
@@ -47,7 +52,8 @@ function calculateDiv3(number) {
 calculateDiv3(5);
 
 
-// bai 15
+
+// bai 15: Tính S(n) = 1 + 1/1 + 2 + 1/ 1 + 2 + 3 + ….. + 1/ 1 + 2 + 3 + …. + N
 function calculateDiv4(number) {
     let value = 1;
     let sum = 0;
@@ -61,7 +67,8 @@ function calculateDiv4(number) {
 calculateDiv4(2);
 
 
-// bai 16
+
+// bai 16: Tính S(n) = x + x^2/1 + 2 + x^3/1 + 2 + 3 + … + x^n/1 + 2 + 3 + …. + N
 function calculateDiv5(number) {
     let value = 1;
     let sum = 0;

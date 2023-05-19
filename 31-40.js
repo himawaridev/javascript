@@ -44,6 +44,23 @@ function calculateDiv4(n) {
     }
 }
 
-console.log('cau 34: ',calculateDiv4(5));
+console.log('cau 34: ', calculateDiv4(5));
 
 // bai 35 Tính S(n) = CanBac2(n! + CanBac2((n-1)! +CanBac2((n – 2)! + … + CanBac2(2!) + CanBac2(1!)))) có n dấu căn
+
+function calculateDiv5(n) {
+    let result = 1; // Gán giá trị khởi tạo cho biến kết quả
+    for (let i = n; i >= 1; i--) {
+        let factorial = calculateFactorial(i); // Tính giai thừa của số i
+        result = Math.sqrt(factorial + result); // Tính căn bậc hai và cộng vào kết quả
+    }
+    return result;
+}
+function calculateFactorial(num) {
+    let factorial = 1;
+    for (let i = 2; i <= num; i++) {
+        factorial *= i;
+    }
+    return factorial;
+}
+console.log("cau 35: ", calculateDiv5(5));
