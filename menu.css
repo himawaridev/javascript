@@ -1,0 +1,13 @@
+#body {
+    /* background-color: rgb(247, 233, 46); */
+    margin: 0px !important;
+}
+
+:root {}
+
+/*container*/
+.container {
+    margin: 0px !important;
+    display: flex;
+    justify-content: space-between
+}
