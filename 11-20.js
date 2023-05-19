@@ -121,7 +121,6 @@ function calculateDiv9(number) {
     let sum = 0;
     for (let i = 1; i <= number; i++) {
         if (number % i === 0) {
-
             console.log ('cau 20: ',i);
         }
     }

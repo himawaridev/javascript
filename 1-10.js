@@ -93,15 +93,10 @@ function calculateDiv6(number) {
 calculateDiv6(4);
 
 
-// // bai 10
-// function calculateDiv7(number) {
-//     let sum = 1;
-//     let x;
-//     // for (let i = 1; i <= number; i++) {
-//     //     sum = sum * i;
-//     // }
-//     sum = sum * i;
-//     console.log('cau 10: ', sum);
-// }
-// calculateDiv7(4);
-// // x ^ n :))
+// bai 10 : Tính T(x, n) = x^n
+
+function question10(x, n) {
+    let sum = Math.pow(x, n);
+    console.log('cau 10: ', sum);
+}
+question10(2, 3)
