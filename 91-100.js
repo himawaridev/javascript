@@ -51,6 +51,7 @@ function question3(a, b, c) {
 question3(5, 10, 12);
 
 
+
 // bai 94: Lập chương trình giải hệ: ax + by = c, Dx + ey = f. Các hệ số nhập từ bàn phím
 /*
 ax + by = c
@@ -71,6 +72,7 @@ function question4(a, b, c, d, e, f) {
 question4(1, 4, 7, 3, 8, 5);
 
 
+
 // bai 95: Viết chương trình nhập vào 3 số thực. Hãy in 3 số ấy ra màn hình theo thứ tự tang dần mà chỉ dùng tối đa 1 biến phụ
 
 function question5(a, b, c) {
@@ -86,6 +88,7 @@ function question5(a, b, c) {
     console.log('cau 95: ', a, b, c);
 }
 question5(5, 7, 3);
+
 
 
 // bai 96: Viết chương trình giải phương trình bậc 2 ax^2 + bx + c = 0
@@ -108,6 +111,7 @@ function question6(a, b, c) {
 question6(2, 5, 3);
 
 
+
 // bai 97: Viết chương trình nhập tháng, năm. Hãy cho biết tháng đó có bao nhiêu ngày
 
 function question7(month) {
@@ -122,3 +126,22 @@ function question7(month) {
     }
 }
 question7(4);
+
+
+// bai 98: Viết chương trình nhập vào 1 ngày ( ngày, tháng, năm). Tìm ngày kế ngày vừa nhập (ngày, tháng, năm)
+
+function question8(dd, mm, yy) {
+    if (dd === 31 || dd === 30 || dd === 28);
+}
+
+// bai 99: Viết chương trình nhập vào 1 ngày ( ngày, tháng, năm). Tìm ngày trước ngày vừa nhập (ngày, tháng, năm)
+
+
+// bai 100: Viết chương trình nhập ngày, tháng, năm. Tính xem ngày đó là ngày thứ bao nhiêu trong năm
+
+function question10(dd,mm,yy) {
+    let sum = 0;
+    for (let i = 1; i <= days; i++) {
+        
+    }
+}

@@ -150,3 +150,5 @@ function question10() {
     console.log('cau 90: ', arr);
 }
 question10();
+
+

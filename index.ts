@@ -100,3 +100,40 @@
 // Bài 99: Viết chương trình nhập vào 3 số thực. Hãy in 3 số ấy ra màn hình theo thứ tự tang dần mà chỉ dùng tối đa 1 biến phụ
 // Bài 100: Viết chương trình giải phương trình bậc 2
 // Bài 101: Viết chương trình nhập tháng, năm. Hãy cho biết tháng đó có bao nhiêu ngày
+// Bài 102: Viết chương trình nhập vào 1 ngày ( ngày, tháng, năm). Tìm ngày kế ngày vừa nhập (ngày, tháng, năm)
+// Bài 103: Viết chương trình nhập vào 1 ngày ( ngày, tháng, năm). Tìm ngày trước ngày vừa nhập (ngày, tháng, năm)
+// Bài 104: Viết chương trình nhập ngày, tháng, năm. Tính xem ngày đó là ngày thứ bao nhiêu trong năm
+// Bài 105: Viết chương trình nhập 1 số nguyên có 2 chữ số.  Hãy in ra cách đọc của số nguyên này
+// Bài 106 Viết chương trình nhập 1 số nguyên có 3 chữ số.  Hãy in ra cách đọc của số nguyên này
+// Bài 107: Viết hàm tính S = CanBacN(x)
+// Bài 108:  Viết hàm tính S = x^y
+// Bài 109: Viết chương trình in bảng cửu chương ra màn hình
+// Bài 110: Cần có tổng 200000 đồng từ 3 loại giấy bạc 1000 đồng, 2000 đồng, 5000 đồng. Lập chương trình để tìm ra tất cả các phương án có thể
+// 
+//
+// Bài 113: Lập chương trình tính sin(x) với độ chính xác 0.00001 theo công thức: Sin(x) = x – x^3/3! + x^5/5! + … + (-1)^n . x^2n + 1/(2n + 1)!
+// Bài 115: Viết chương trình nhập họ tên, điểm toán, điểm văn của 1 học sinh. Tính điểm trung bình và xuất ra kết quả
+// Bài 116: Viết chương trình nhập n và tính tổng S = 1 + 2 + 3 + … + n
+// Bài 117: Viết chương trình nhập n và tính tổng S(n) = x + x^2 + x^3 + … + x^n
+// 
+// Bài 119: Liệt kê tất cả các số nguyên tố nhỏ hơn n
+// bai 120: Liệt kê tất cả các số chính phương nhỏ hơn n
+// Bài 122: Viết hàm tìm giá trị lớn nhất trong mảng 1 chiều các số thực
+// Bài 123: Viết hàm tìm 1 vị trí mà giá trị tại vị trí đó là giá trị nhỏ nhất trong mảng 1 chiều các số nguyên
+// Bài 124: Viết hàm kiểm tra trong mảng các số nguyên có tồn tại giá trị chẵn nhỏ hơn 2004 hay không
+// Bài 125: Viết hàm đếm số lượng số nguyên tố nhỏ hơn 100 trong mảng
+// Bài 126: Viết hàm tính tổng các giá trị âm trong mảng 1 chiều các số thực
+// Bài 128 + 130: Viết hàm nhập, xuất mảng 1 chiều các số thực
+// Bài 129 + 131: Viết hàm nhập, xuất mảng 1 chiều các số nguyên
+// Bài 132: Viết hàm liệt kê các giá trị chẵn trong mảng 1 chiều các số nguyên
+// Bài 133: Viết hàm liệt kê các vị trí mà giá trị tại đó là giá trị âm trong mảng 1 chiều các số thực
+
+
+
+
+
+
+
+
+
+

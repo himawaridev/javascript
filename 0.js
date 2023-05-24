@@ -1,18 +1,25 @@
-function printNumbersInAscendingOrder(a, b, c) {
-    if (a > b) {
-      [a, b] = [b, a]; // Hoán đổi giá trị của a và b
+function lietKeSoChan(mang) {
+  console.log("Các giá trị chẵn trong mảng:");
+  for (var i = 0; i < mang.length; i++) {
+    if (mang[i] % 2 === 0) {
+      console.log(mang[i]);
     }
-    if (b > c) {
-      [b, c] = [c, b]; // Hoán đổi giá trị của b và c
-    }
-    if (a > b) {
-      [a, b] = [b, a]; // Hoán đổi giá trị của a và b (nếu cần thiết)
-    }
-  
-    console.log("Ba số theo thứ tự tăng dần:", a, b, c);
   }
-  
-  // Ví dụ sử dụng hàm printNumbersInAscendingOrder với a = 7, b = 3, c = 9
-  let a = 7, b = 3, c = 9;
-  printNumbersInAscendingOrder(a, b, c);
-  
+}
+
+// Ví dụ sử dụng:
+var mangSoNguyen = [-2, 5, 0, 10, -7, 3, 8, -1, 4, -6, 9, -3, 2];
+lietKeSoChan(mangSoNguyen);
+
+function question10(array) {
+  if (array === 0) {
+    return null;
+  }
+  let arr = [];
+  for (let i = 0; i <= array.length; i++) {
+    if (array[i] % 2 === 0) {
+      console.log(array[i]);
+    }
+  }
+}
+question10([-2, 5, 0, 10, -7, 3, 8, -1, 4, -6, 9, -3, 2]);
