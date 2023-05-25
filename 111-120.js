@@ -159,19 +159,29 @@ function question7(array) {
 }
 question7([3.14, -5.5, 2.71828, 0.5, -10.75, 1.618, -2.3, 4.2, -0.25, 7.8, -1.333, 6.01, -9.99]);
 
-// bai 118: Viết hàm nhập, xuất mảng 1 chiều các số thực
-// bai 119: Viết hàm nhập, xuất mảng 1 chiều các số nguyên
-// bai 120: Viết hàm liệt kê các giá trị chẵn trong mảng 1 chiều các số nguyên
 
 
-function question10(array) {
-    if (array === 0) {
-        return null;
-    }
-    for (let i = 0; i <= array.length; i++) {
-        if (array[i] % 2 === 0) {
-            console.log(array[i]);
-        }
-    }
+
+// bai 118: Viết hàm sắp xếp mảng 1 chiều các số thực tăng dần
+
+function question8(array) {
+    array.sort(function (a, b) {
+        return a - b;
+    });
 }
-question10([-2, 5, 0, 10, -7, 3, 8, -1, 4, -6, 9, -3, 2]);
+let arrString = [3.14, -5.5, 2.71828, 0.5, -10.75, 1.618, -2.3, 4.2, -0.25, 7.8, -1.333, 6.01, -9.99];
+question8(arrString);
+console.log('cau 119: ', arrString);
+
+
+
+
+
+
+
+
+
+
+
+// bai 119: Viết hàm nhập, xuất mảng 1 chiều các số thực
+// bai 120: Viết hàm nhập, xuất mảng 1 chiều các số nguyên

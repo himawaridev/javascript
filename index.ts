@@ -123,11 +123,19 @@
 // Bài 124: Viết hàm kiểm tra trong mảng các số nguyên có tồn tại giá trị chẵn nhỏ hơn 2004 hay không
 // Bài 125: Viết hàm đếm số lượng số nguyên tố nhỏ hơn 100 trong mảng
 // Bài 126: Viết hàm tính tổng các giá trị âm trong mảng 1 chiều các số thực
+// Bài 127: Viết hàm sắp xếp mảng 1 chiều các số thực tăng dần
 // Bài 128 + 130: Viết hàm nhập, xuất mảng 1 chiều các số thực
 // Bài 129 + 131: Viết hàm nhập, xuất mảng 1 chiều các số nguyên
 // Bài 132: Viết hàm liệt kê các giá trị chẵn trong mảng 1 chiều các số nguyên
 // Bài 133: Viết hàm liệt kê các vị trí mà giá trị tại đó là giá trị âm trong mảng 1 chiều các số thực
-
+// Bài 134: Viết hàm tìm giá trị lớn nhất trong mảng 1 chiều các số thực
+// Bài 135: Viết hàm tìm giá trị dương đầu tiên trong mảng 1 chiều các số thực. Nếu mảng không có giá trị dương thì trả về -1
+// Bài 136: Tìm số chẵn cuối cùng trong mảng 1 chiều các số nguyên. Nếu mảng không có giá trị chẵn thì trả về -1
+// Bài 137: Tìm 1 vị trí mà giá trị tại vị trí đó là giá trị nhỏ nhất trong mảng 1 chiều các số thực
+// Bài 138: Tìm vị trí của giá trị chẵn đầu tiên trong mảng 1 chiều các số nguyên. Nếu mảng không có giá trị chẵn thì sẽ trả về -1
+// Bài 139: Tìm vị trí số hoàn thiện cuối cùng trong mảng 1 chiều các số nguyên. Nếu mảng không có số hoàn thiện thì trả về giá trị  -1
+// Bài 140: Hãy tìm giá trị dương nhỏ nhất trong mảng 1 chiều các số thực. Nếu mảng không có giá trị dương thì sẽ trả về -1
+// Bài 141: Hãy tìm vị trí giá trị dương nhỏ nhất trong mảng 1 chiều các số thực. Nếu mảng không có giá trị dương thì trả về  -1
 
 
 
