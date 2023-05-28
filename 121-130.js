@@ -116,12 +116,67 @@ function question7(array) {
     if (array.length === 0) {
         return null;
     }
-    let arr = [0];
     for (let i = 0; i <= array.length; i++) {
         if (array[i] % 2 === 0) {
-            array[i] = arr;
+            return i;
         }
     }
-    console.log(arr)
+    return -1;
 }
-question7([5, 3, 9, 18, 1, 10, 6, 4, 2, 7, 8]);
+let arrayQuestion7 = [1, 8, 3, 5, 2, 7, 9];
+let location = question7(arrayQuestion7);
+console.log("cau 127: Vị trí của giá trị chẵn đầu tiên: " + location);
+
+
+
+// bai 128: Tìm vị trí số hoàn thiện cuối cùng trong mảng 1 chiều các số nguyên. Nếu mảng không có số hoàn thiện thì trả về giá trị  -1
+
+// function question8 (array) {
+//     if (array.length === 0) {
+//         return null;
+//     }
+//     for
+// }
+
+
+
+
+// bai 129: Hãy tìm giá trị dương nhỏ nhất trong mảng 1 chiều các số thực. Nếu mảng không có giá trị dương thì sẽ trả về -1
+
+function question9(array) {
+    if (array.length === 0) {
+        return -1;
+    }
+    let minValue = Infinity;
+    for (let i = 0; i <= array.length; i++) {
+        if (array[i] > 0 && array[i] < minValue) {
+            minValue = array[i];
+        }
+    }
+    if (minValue === Infinity) {
+        return -1;
+    }
+    return minValue;
+}
+console.log('cau 129: gia tri duong nho nhat la:', question9([7.5, 3.4, 5.6, 7.8, 9.0, 10.1, 11.2, 12.3, 0.5, 13.4, 14.5]));
+
+
+
+
+// bai 130: Hãy tìm vị trí giá trị dương nhỏ nhất trong mảng 1 chiều các số thực. Nếu mảng không có giá trị dương thì trả về  -1
+
+function question10(array) {
+    if (array.length === 0) {
+        return null;
+    }
+    let minValue = Infinity;
+    let arr = -1;
+    for (let i = 0; i <= array.length; i++) {
+        if (array[i] > 0 && array[i] < minValue) {
+            minValue = array[i];
+            arr = i;
+        }
+    }
+    return arr;
+}
+console.log('cau 130: vi tri gia tri duong nho nhat la:',question10([7.5, 3.4, 5.6, 7.8, 9.0, 10.1, 11.2, 12.3, 0.5, 13.4]));
