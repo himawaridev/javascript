@@ -1,26 +1,25 @@
-function calculator2(number) {
-    if (number < 2) {
-        return false;
-    }
-    for (let i = 2; i <= Math.sqrt(number); i++) {
-        if (number % i === 0) {
-            return false;
-        }
-    }
-    return true;
-}
-
-function question8(array) {
+function findRange(array) {
     if (array.length === 0) {
-        return -1;
+        return null;
     }
-    let maxValue = -1;
-    for (let i = 0; i < array.length; i++) {
-        if (calculator2(array[i])) {
-            maxValue = array[i];
+    
+    let min = array[0];
+    let max = array[0];
+
+    for (let i = 1; i < array.length; i++) {
+        if (array[i] < min) {
+            min = array[i];
+        }
+        if (array[i] > max) {
+            max = array[i];
         }
     }
-    return maxValue;
+    
+    return [min, max];
 }
 
-console.log('cau 138: so hoan thien cuoi cung trong mang la:', question8([4, 6, 8, 9, 10, 11, 12]));
+// Ví dụ sử dụng
+let numbers = [1.5, -11, 2.7, -3.2, 4.9, -5.1, 6.4, 7.2, -8.3, 9.6, 50.0];
+
+let range = findRange(numbers);
+console.log('Bài 157: Đoạn chứa tất cả các giá trị trong mảng:', range);
