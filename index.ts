@@ -193,7 +193,37 @@
 // Bài 197: Hãy liệt kê các giá trị trong mảng các số nguyên có chữ số đầu tiên là chữ số lẻ
 // Bài 198: Hãy liệt kê các vị trí mà giá trị tại đó là giá trị lớn nhất trong mảng 1 chiều các số thực
 // Bài 199: Hãy liệt kê các vị trí mà giá trị tại đó là số nguyên tố trong mảng 1 chiều các số nguyên
-
+// Bài 200: Tính tổng các phần tử trong mảng
+// Bài 201: Tính tổng các giá trị dương trong mảng 1 chiều các số thực
+// Bài 202: Tính tổng các giá trị có chữ số đầu tiên là chữ số lẻ trong mảng 1 chiều các số nguyên
+// Bài 203: Tinh tổng các chữ số có chữ số hàng chục là 5 trong mảng 1 chiều các số nguyên
+// Bài 204: Tính tổng các giá trị lớn hơn giá trị đứng liền trước nó trong mảng 1 chiều các số thực
+// Bài 205: Tính tổng các giá trị lớn hơn trị tuyệt đối của giá trị đứng liền sau nó trong mảng 1 chiều các số thực
+// Bài 206: Tính tổng các giá trị lớn hơn các giá trị xung quanh trong mảng 1 chiều các số thực
+// Bài 207: Tính tổng các phần tử “cực trị” trong mảng. Một phần tử được gọi là cực trị khi nó lớn hơn hoặc nhỏ hơn các phần tử xung quanh nó
+// Bài 208: Tính tổng các giá trị chính phương trong mảng 1 chiều các số nguyên
+// Bài 209: Tính tổng các giá trị đối xứng trong mảng các số nguyên
+// Bài 210: Tính tổng các giá trị có chữ số đầu tiên là chữ số chẵn trong mảng các số nguyên\
+// Bài 211: Tính trung bình cộng các số nguyên tố trong mảng 1 chiều các số nguyên
+// Bài 212: Tính trung bình cộng các số dương trong mảng 1 chiều các số thực
+// Bài 213: Tính trung bình cộng các giá trị lớn hơn giá trị x trong mảng 1 chiều các số thực
+// Bài 214: Tính trung bình nhân các giá trị dương có trong mảng 1 chiều các số thực
+// Bài 215 (*): Tính khoảng các trung bình giữa các giá trị trong mảng
+// Bài 216: Đếm số lượng số chẵn trong mảng
+// Bài 217: Đếm số dương chia hết cho 7 trong mảng
+// Bài 218: Đếm số đối xứng trong mảng
+// Bài 219: Đếm số lần xuất hiện của giá trị x trong mảng
+// Bài 220: Đếm số lượng giá trị tận cùng bằng 5 trong mảng
+// Bài 221: Cho biết sự tương quan giữa số lượng chẵn và lẻ trong mảng. Hàm trả về 1 trong 3 giá trị -1, 0, 1. Giá trị -1 là chẵn nhiều hơn lẻ .Giá trị 0 là chẵn bằng lẻ .Giá trị 1 là chẵn ít hơn lẻ
+// Bài 222: Đếm phần tử lớn hơn hay nhỏ hơn phần tử xung quanh mảng
+// Bài 223: Đếm số nguyên tố trong mảng
+// Bài 224: Đếm số hoàn thiện trong mảng
+// Bài 225: Đếm số lượng giá trị lớn nhất có trong mảng
+// Bài 226: Hãy xác định số lượng phần tử kề nhau mà cả 2 đều chẵn
+// Bài 227: Hãy xác định số lượng phần tử kề nhau mà cả 2 trái dấu
+// Bài 228: Hãy xác định số lượng phần tử kề nhau mà số đứng sau cùng dấu số đứng trước và có giá trị tuyệt đối lớn hơn
+// Bài 229: Đếm số lượng các giá trị phân biệt có trong mảng
+// Bài 230: Liệt kê tần suất xuất hiện các giá trị trong mảng (mỗi giá trị liệt kê 1 lần)
 
 
 
