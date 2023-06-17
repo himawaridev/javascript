@@ -22,4 +22,9 @@
 // has() dung de kiem tra 1 gia tri da ton tai trong set() hay chua
 // add() dùng để thêm 1 giá trị vào đóio tượng set()
 // set() dùng dể thêm 1 cặp key-value mới vào trong Map()
-// forEach() được dùng để lặp qua các phần tử trong một đối tượng set
+// forEach() được dùng để lặp qua các phần tử trong một đối tượng set() hoac  Map()
+// get()  được sử dụng để truy xuất giá trị tương ứng với một khóa trong Map.
+// delete() để xóa một phần tử khỏi Set. Nó nhận vào giá trị cần xóa và sẽ xóa phần tử đó khỏi Set nếu nó tồn tại.
+// .size là thuộc tính của đối tượng Set trong JavaScript để trả về số lượng phần tử hiện có trong Set.
+// includes() được sử dụng để kiểm tra xem một giá trị (value) có tồn tại trong mảng hay không. Nó trả về giá trị boolean (true hoặc false) tùy thuộc vào việc giá trị có được tìm thấy trong mảng hay không
+// Array.from để tạo một mảng mới từ một đối tượng có tính chất "iterable" hoặc một đối tượng giống mảng (array-like).

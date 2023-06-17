@@ -168,9 +168,11 @@ function question9(array) {
     let frequencyMap = new Map();  // luu tru tan suat xuat hien cua cac gia tri
 
     for (let i = 0; i < array.length; i++) {
-        let value = array[i];
-        if (frequencyMap.has(value)) {
-            frequencyMap.set(value, frequencyMap.get(value) + 1)
+        let value = array[i];   // khai bao gia tri cua array[i]
+        if (frequencyMap.has(value)) {      // kiem tra xem value da ton tai trong new Map() hay chua
+
+            // them 1 cap key-value vao trong set Map() va truy xuat gia tri duoc luu tru trong Map() va se duoc cong them 1
+            frequencyMap.set(value, frequencyMap.get(value) + 1);   
         }
         else {
             frequencyMap.set(value, 1);
@@ -184,4 +186,26 @@ function question9(array) {
     return arr;
 }
 
-console.log('cau 218: cac gia tri xuat hien 1 lan trong mang la:',question9([1, 2, 3, 4, 1, 3, 5, 1]));
+console.log('cau 219: cac gia tri xuat hien qua 1 lan trong mang la:',question9([1, 2, 3, 4, 1, 3, 5, 1]));
+
+
+// bai 220: Hãy liệt kê tần suất của các giá trị xuất hiện trong dãy. Lưu ý: mỗi giá trị liệt kêt tần suất 1 lần
+
+function question10(array) {
+    if (array.length === 0) {
+        return null;
+    }
+    let frequencyMap = new Map();   // khoi tao luu tru cac cap key-value
+    array.forEach((value) => {
+        if (frequencyMap.has(value)) {
+            frequencyMap.set(value, frequencyMap.get(value) + 1);
+        }
+        else {
+            frequencyMap.set(value, 1);
+        }
+    });
+    frequencyMap.forEach((frequencyMap, value) => {
+        console.log(`${value}: ${frequencyMap}`);
+    });
+}
+question10([1, 2, 3, 4, 1, 3, 5, 1]);
