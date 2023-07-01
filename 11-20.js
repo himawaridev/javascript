@@ -31,8 +31,9 @@ calculateDiv1(5);
 function calculateDiv2(number) {
     let x = 1;
     let sum = 0;
-    for (let i = 0; i <= number; i++) {
-        sum = sum + (x ** (i * 2));
+    for (let i = 1; i <= number; i++) {
+        let term = Math.pow(x, 2 * i);
+        sum += term;
     }
     console.log('cau 13: ', sum);
 }

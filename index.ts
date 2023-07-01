@@ -233,13 +233,69 @@
 // Bài 237 + 238(*): Hãy liệt kê các giá trị có số lần xuất hiện nhiều nhất trong mảng
 // Bài 239: Hãy đếm số lượng số nguyên tố phân biệt trong mảng
 // Bài 240: Kiểm tra mảng có giá trị 0 hay không? Có trả về 1, không có trả về 0
-
-
-
-
-
-
-
+// Bài 241: Kiểm tra mảng có 2 giá trị 0 liên tiếp hay không? Có trả về 1, không có trả về 0
+// Bài 242: Kiểm tra mảng có số chẵn hay không? Có trả về 1, không có trả về 0
+// Bài 243: Kiểm tra mảng có số nguyên tố hay không? Có trả về 1, không có trả về 0
+// Bài 244: Kiểm tra mảng thỏa tính chất: mảng không có số hoàn thiện lớn hơn 256. Có trả về 1, không có trả về 0
+// Bài 245: Kiểm tra mảng có toàn số chẵn không? Có trả về 1, không có trả về 0
+// Bài 246: Kiểm tra mảng có đối xứng không? Có trả về 1, không có trả về 0
+// Bài 247: Ta định nghĩa 1 mảng có tính chất lẻ, khi tổng của 2 phần tử liên tiếp luôn là lẻ. Kiểm tra mảng có tính chất lẻ hay không
+// Bài 248: Kiểm tra mảng có tăng dần hay không
+// Bài 249: Kiểm tra mảng có giảm dần hay không
+// Bài 250: Hảy cho biết các phần tử trong mảng có lập thành cấp số cộng hay không? Nếu có chỉ ra công sai d
+// Bài 251: Hãy cho biết các phần tử trong mảng có bằng nhau không
+// Bài 252: Ta định nghĩa 1 mảng được gọi là dạng song, khi phần tử có trị số I lớn hơn hoặc nhỏ hơn 2 phần tử xung quanh. Hãy viết hàm kiểm tra mảng có dạng sóng không
+// Bài 253: Hãy cho biết tất cả các phần tử trong mảng a có nằm trong mảng b không
+// Bài 254: Hãy đếm giá trị trong mảng thỏa: lớn hơn tất cả các giá trị đứng đằng trước nó
+// Bài 255: Sắp xếp mảng tăng dần
+// Bài 256: Sắp xếp mảng giảm dần
+// Bài 257: Sắp xếp lẻ tăng dần nhưng giá trị khác giữ nguyên vị trí
+// Bài 258: Sắp xếp số nguyên tố tăng dần nhưng giá trị khác giữ nguyên vị trí
+// Bài 259: Sắp xếp số hoàn thiện giảm dần nhưng giá trị khác giữ nguyên vị trí
+// Bài 260: Cho 2 mảng a, b. Hãy cho biết mảng b có phải là hoán vị của mảng a không
+// Bài 261: Sắp xếp số dương tăng dần, các số âm giữ nguyên vị trí
+// Bài 262: Sắp xếp chẵn, lẻ tăng dần nhưng vị trí tương đối giữa các số không thay đổi
+// Bài 263: Sắp xếp số dương tăng dần, âm giảm dần. Vị trí tương đối không thay đổi
+// Bài 264: Trộn 2 mảng đã tăng thành 1 mảng được sắp xếp tăng
+// Bài 265: Cho 2 mảng tăng. Hãy trộn thành 1 mảng giảm dần
+// Bài 266: Thêm 1 phần tử x vào mảng tại vị trí k
+// Bài 267: Viết hàm nhập mảng sao cho khi nhập xong thì giá trị trong mảng sắp xếp giảm dần
+// Bài 268: Hãy tạo mảng b từ mảng a các giá trị 0, 1 để mảng có tính chẵn lẻ
+// Bài 269: Thêm x vào trong mảng tăng nhưng vẫn giữ nguyên tính tăng của mảng
+// Bài 270: Nhập mảng sau khi nhập xong đã tự sắp xếp tăng dần
+// Bài 271: Xóa các phần tử có chỉ số k trong mảng
+// Bài 272: Hãy xóa tất cả số lớn nhất trong mảng các số thực
+// Bài 273: Xóa tất cả các số âm trong mảng
+// Bài 274: Xóa tất cả các số chẵn trong mảng
+// Bài 275: Xóa tất cả các số chính phương trong mảng
+// Bài 276: Xóa tất cả các phần tử trùng với x
+// Bài 277: Xóa tất cả các số nguyên tố trong mảng
+// Bài 278: Xóa tất cả các phần tử trùng nhau trong mảng và chỉ giữ lại duy nhất 1 phần tử
+// Bài 279: Xóa tất cả các phần tử xuất hiện nhiều hơn 1 lần trong mảng
+// Bài 280: Hãy đưa số 1 về đầu mảng
+// Bài 281: Hãy đưa chẵn về đầu, lẻ về cuối, phần tử 0 nằm giữa mảng
+// Bài 282: Đưa các số chia hết cho 3 về đầu mảng
+// Bài 283: Đảo ngược mảng ban đầu
+// Bài 284: Đảo ngược thứ tự các số chẵn trong mảng
+// Bài 285: Đảo ngược thứ tự số dương trong mảng
+// Bài 286: Dịch trái xoay vòng k phần tử trong mảng
+// Bài 287: Dịch phải xoay vòng k phần tử trong mảng
+// Bài 288: Hãy xuất phần tử trong mảng theo yêu cầu: chẵn vàng, lẻ trắng
+// Bài 289: Xuất mảng: chẵn nằm trên 1 mảng, lẻ nằm trên hàng tiếp theo
+// Bài 290: Đảo ngược thứ tự số chẵn và lẻ trong mảng nhưng giữ vị trí tương đối
+// Bài 291: Biến đổi mảng bằng cách thay giá trị max = giá trị min và ngược lại
+// Bài 292: Biến đổi mảng  số thực bằng cách thay tất cả phần tử trong mảng bằng số nguyên gần nó nhất (giống làm tròn)
+// Bài 293: Liệt kê tất cả các mảng con
+// Bài 294: Liệt kê mảng con có độ dài lớn hơn 2 phần tử
+// Bài 295: Liệt kê dãy con tăng dần
+// Bài 296: Liệt kê dãy con tăng và chứa giá trị lớn nhất
+// Bài 297: Tính tổng từng mảng con tăng
+// Bài 298: Đếm mảng con tăng có độ dài lớn hơn 1
+// Bài 299: Liệt kê dãy con toàn dương và có độ dài lớn hơn 1
+// Bài 300: Đếm mảng con giảm
+// Bài 301: Cho biết mảng a có phải là mảng con của mảng b không
+// Bài 302: Đếm số lần xuất hiện của mảng a trong mảng b
+ 
 
 
 
