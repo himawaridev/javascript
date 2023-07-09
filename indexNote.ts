@@ -66,23 +66,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 Thêm phần tử vào mảng: array.splice(start, deleteCount, item1, item2, ...).
 start: Vị trí bắt đầu thay đổi mảng.

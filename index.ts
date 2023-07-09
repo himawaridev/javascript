@@ -295,9 +295,22 @@
 // Bài 300: Đếm mảng con giảm
 // Bài 301: Cho biết mảng a có phải là mảng con của mảng b không
 // Bài 302: Đếm số lần xuất hiện của mảng a trong mảng b
- 
-
-
+// Bài 303: Tìm dãy con toàn dương dài nhất
+// Bài 304(*): Cho mảng a, số nguyên M. Tìm 1 mảng con sao cho tổng các phần tử bằng M
+// Bài 305(*): Tìm dãy con toàn dương có tổng lớn nhất
+// Bài 306: Tìm mảng con có tổng lớn nhất
+// Bài 307: Tạo mảng b chỉ chứa giá trị lẻ từ mảng a
+// Bài 308: Tạo mảng b chỉ chứa giá trị âm từ mảng a
+// Bài 309: Tạo mảng b sao cho b[i] = tổng các phần tử lân cận với a[i] trong mảng a
+// Bài 310: Tạo mảng b chỉ chứa số nguyên tố từ mảng a
+// Bài 311 + 313: Viết hàm nhập xuất ma trận số nguyên
+// Bài 312 + 314: Viết hàm nhập xuất ma trận số thực
+// Bài 315: Viết hàm tìm giá trị lớn nhất trong ma trận số thực
+// Bài 316: Viết hàm kiểm tra trong ma trận số nguyên có tồn tại giá trị chẵn nhỏ hơn 2015?
+// Bài 317: Viết hàm đếm số lượng số nguyên tố trong ma trận số nguyên
+// Bài 318: Viết hàm tính tổng các giá trị âm trong ma trận số thực
+// Bài 319: Viết hàm sắp xếp ma trận các số thực tăng dần từ trên xuống dưới và từ trái sang phải
+// Bài 320: Tính tổng các số dương trong ma trận các số thực
 
 
 

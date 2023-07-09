@@ -1,27 +1,25 @@
-function countIncreasingSubarrays(array) {
-  function getIncreasingSubarrays(start, subarray) {
-    let count = 0;
-
-    if (subarray.length > 1) {
-      count++;
+function question8(arrayA) {
+    if (arrayA.length === 0) {
+        return [];
     }
-
-    for (let i = start + 1; i < array.length; i++) {
-      if (array[i] > subarray[subarray.length - 1]) {
-        count += getIncreasingSubarrays(i, [...subarray, array[i]]);
-      }
+    let arrayB = [];
+    function isPrime(number) {
+        if (number < 2) {
+            return false;
+        }
+        for (let i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i === 0) {
+                return false;
+            }
+        }
+        return true;
     }
-
-    return count;
-  }
-
-  let totalCount = 0;
-
-  for (let i = 0; i < array.length; i++) {
-    totalCount += getIncreasingSubarrays(i, [array[i]]);
-  }
-
-  return totalCount;
+    for (let i = 0; i < arrayA.length; i++) {
+        if (isPrime(arrayA[i])) {
+            arrayB.push(arrayA[i]);
+        }
+    }
+    return arrayB;
 }
 
-console.log('Số lượng mảng con tăng có độ dài lớn hơn 1:', countIncreasingSubarrays([1, 2, 3, 4]));  // Kết quả: 6
+console.log("Bài 298: mảng b chứa các số nguyên tố từ mảng a:", question8([1, 2, 3, 4, 5]));
